@@ -11,8 +11,8 @@ import { Box } from "@mui/system";
 const AppRouter = () => {
   return (
     <Router>
-        <Container maxWidth="sm">
-            <Box textAlign="center" mt={5}>
+        <Container maxWidth="sm" >
+            <Box textAlign="center" mt={5} >
                 <Routes>
                     <Route path="/" element={<Main />} exact/>
                     <Route path="/questions" element={<Questions />} />
