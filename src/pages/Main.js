@@ -40,7 +40,7 @@ const Main = () => {
 
     return (
         <Fragment>
-            <Typography variant="h2" component="h1" align="center" mb={3} fontWeight="bold">Quiz</Typography>
+            <Typography variant="h2" component="h1" align="center" mb={2} fontWeight="bold">Quiz</Typography>
             <form onSubmit={handleSubmit}>
                 <SelectField options={response.trivia_categories} label="Category"/>
                 <SelectField options={difficultyOptions} label="Difficulty"/>

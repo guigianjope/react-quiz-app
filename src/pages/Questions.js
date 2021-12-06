@@ -78,8 +78,8 @@ const Questions = () => {
 
     return (
         <Fragment>
-            <Typography variant="h2" component="h1" align="center" mb={3} fontWeight="bold">Quiz</Typography>
-            <Box  border={5} borderRadius={10} padding="2rem">
+            <Typography variant="h2" component="h1" align="center" mb={1} fontWeight="bold">Quiz</Typography>
+            <Box border={5} borderRadius={10} padding="2rem">
                 <Typography variant="h4">Question {questionIndex + 1}</Typography>
                 <Typography mt={5} fontSize="20px" fontWeight="bold" height="100px">{decode(response.results[questionIndex].question)}</Typography>
                 {options.map((data, id) => (
